@@ -29,13 +29,13 @@ A section for articles, news updates, or blog posts.
 
 A section with health providers and appointments related to health to individual needs
 
--Contact us:
+- Contact us:
 
 This contains Information such as email addresses, phone numbers, or a contact form for users to get in touch.
 
 - User Authentication and Registration:
 
-Allow users to create accounts, log in, and access personalized content or services.
+Allows users to create accounts, log in, and access personalized content or services.
 
 ## Getting Started
 Follow these instructions to get a copy of the project up and running on your local machine.
