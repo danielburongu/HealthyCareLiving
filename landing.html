@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page With Light/Dark Mode</title>
+    <link rel="stylesheet" href="landing.css" />
+  </head>
+  <body>
+    <main>
+      <div class="big-wrapper light">
+        <img src="./img/shape.png" alt="" class="shape" />
+
+        <header>
+          <div class="container">
+            <div class="logo">
+              <img src="./images/Health logo.svg" alt="Logo" />
+              <h3>HealthyCareLiving</h3>
+            </div>
+
+            <div class="links">
+              <ul>
+                <li><a href="landing.html">Home</a></li>
+                <li><a href="health-Article.html">HealthArticle</a></li>
+                <li><a href="health-Expert.html">Health Expert</a></li>
+                <li><a href="contact-Us.html">Contact Us</a></li>
+                <li><a href="signup.html" class="btn">Sign up</a></li>
+              </ul>
+            </div>
+
+            <div class="overlay"></div>
+
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </header>
+
+        <div class="showcase-area">
+          <div class="container">
+            <div class="left">
+              <div class="big-title">
+                <h1>Discover</h1>
+                <h1>Expert Health Tips.</h1>
+              </div>
+              <p class="text">
+                We believe in the power of knowledge.
+                That's why our platform is a rich resource of healthcare tips ,information and access to health professionals,
+                ensuring you stay informed and empowered on your journey to better health. 
+              </p>
+              <div class="cta">
+                <a href="signup.html" class="btn">Get started</a>
+              </div>
+            </div>
+
+            <div class="right">
+              <img src="./images/Radiology.jpg" alt="Product Image" class="product" />
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-area">
+          <div class="container">
+            <button class="toggle-btn">
+              <i class="far fa-moon"></i>
+              <i class="far fa-sun"></i>
+            </button>
+          </div>
+        </div>
+
+
+    
+
+        
+      </div>
+    </main>
+
+    <!-- JavaScript Files -->
+
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <script src="./app.js"></script>
+
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+    <!-- Include your firebaseConfig.js file -->
+    <script src="assets/backend/authentication/firebaseconfig.js"></script>
+    <!-- Include your main JavaScript file -->
+    <script src="assets/backend/authentication/request.js"></script>
+
+
+
+  </body>
+</html>

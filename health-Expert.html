@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthcare Experts</title>
+  <link rel="stylesheet" href="expert.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="assets/css/navigation_bar.css" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Poppins:wght@200;300;400;500;600;700;900&family=Raleway:wght@300;900&family=Roboto:ital,wght@1,300;1,500&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  
+    <header>
+        <div class="container">
+          <div class="logo">
+            <!-- on clicking the logo img it redirects to home page -->
+            <a href="landing.html">
+              <img src="images/Health logo.svg" alt="Logo">
+            </a>
+            <h3>HealthyCareLiving</h3>
+          </div>
+
+          <div class="links">
+            <ul>
+              <li><a href="landing.html">Home</a></li>
+              <li><a href="health-Article.html">HealthArticle</a></li>
+              <li><a href="health-Expert.html">Health Expert</a></li>
+              <li><a href="contact-Us.html">Contact Us</a></li>
+              <li><a href="signup.html" class="btn">Sign up</a></li>
+            </ul>
+          </div>
+
+          <div class="overlay"></div>
+
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+          </div>
+        </div>
+      </header>
+
+
+    <!-- <div class="headline">
+        <h1>Healthcare Specialists</h1>
+    </div> -->
+    <div class="container">
+        <div class="expert-card">
+          <h3>Radiologist</h3>
+          <img src="images/health.jpeg" alt="">
+          <button class="form-button" onclick="toggleForm('radiologist')"><b>Dr Amos</b> <br>Board-Certified Radiologist</button>
+          <!-- <p>As a dedicated and highly skilled Radiologist, Dr. Amos brings a wealth of experience and expertise to the field of medical imaging. With a commitment to providing accurate diagnoses and exceptional patient care, Dr. [Your Name] plays a crucial role in the healthcare journey of every individual.</p> -->
+        </div>
+
+
+        <div class="expert-card">
+          <h3>General Surgeon</h3>
+          <img src="images/health.jpeg" alt="">
+          <button class="form-button" onclick="toggleForm('surgeon')"><b>Dr Gerald</b> <br>Board-Certified General Surgeon</button>
+        </div>
+
+
+
+
+        <div class="expert-card">
+          <h3>Obstetrician/Gynecologist</h3>
+          <img src="images/health.jpeg" alt="">
+          <button class="form-button" onclick="toggleForm('gynecologist')"><b>Dr Musa</b> <br>Board-Certified Obstetrician/Gynecologist</button>
+        </div>
+
+
+
+
+        <div class="expert-card">
+          <h3>Pulmonologist</h3>
+          <img src="images/health.jpeg" alt="">
+          <button class="form-button" onclick="toggleForm('pulmonologist')"><b>Dr Simon</b> <br>Board-Certified Pulmonologist</button>
+        </div>
+
+
+
+
+
+        <div class="expert-card">
+            <h3>Neurologist</h3>
+            <img src="images/health.jpeg" alt="">
+            <button class="form-button" onclick="toggleForm('neurologist')"><b>Dr Joseph</b> <br>Board-Certified Neurologist</button>
+        </div>
+
+
+
+
+
+        <div class="expert-card">
+          <h3>Cardiologist</h3>
+          <img src="images/health.jpeg" alt="">
+          <button class="form-button" onclick="toggleForm('cardiologist')"><b>Dr buari</b> <br>Board-Certified Cardiologist</button>
+        </div>
+
+
+
+    
+        <div class="appointment-form" id="appointment-form">
+            <h3>Request Appointment</h3>
+            <form action="https://formsubmit.co/720d9fd0e096ec3399d44e19a4854350" method="POST">
+                <input type="text" name="Name" placeholder="Full Name" required>
+                <input type="email" name="Email" placeholder="Email" required>
+                <input type="tel" name="Telephone" placeholder="Phone Number" required>
+                <textarea name="Message" placeholder="Your Message"></textarea>
+                <button class="form-button">Submit</button>
+            </form>
+        </div>
+
+    </div>
+
+    
+        <div class="bottom-area">
+          <div class="container">
+            <button class="toggle-btn">
+              <i class="far fa-moon"></i>
+              <i class="far fa-sun"></i>
+            </button>
+          </div>
+        </div>
+      
+
+  <script src="expert.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>
