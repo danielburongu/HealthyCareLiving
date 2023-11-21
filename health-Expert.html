@@ -103,12 +103,12 @@
     
         <div class="appointment-form" id="appointment-form">
             <h3>Request Appointment</h3>
-            <form action="https://formsubmit.co/720d9fd0e096ec3399d44e19a4854350" method="POST">
-                <input type="text" name="Name" placeholder="Full Name" required>
-                <input type="email" name="Email" placeholder="Email" required>
-                <input type="tel" name="Telephone" placeholder="Phone Number" required>
-                <textarea name="Message" placeholder="Your Message"></textarea>
-                <button class="form-button">Submit</button>
+            <form action="" id="RequestForm">
+                <input type="text" id="name" placeholder="Full Name" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="tel" id="telephone" placeholder="Phone Number" required>
+                <textarea name="Message" id="msgContent" placeholder="Your Message"></textarea>
+                <button class="form-button" type="submit">Submit</button>
             </form>
         </div>
 
@@ -124,9 +124,10 @@
           </div>
         </div>
       
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
   <script src="expert.js"></script>
   <script src="app.js"></script>
+  <script src="request.js"></script>
 
 </body>
 </html>

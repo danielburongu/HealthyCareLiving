@@ -13,18 +13,19 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 // reference your database
-var contactFormDB = firebase.database().ref("contactForm");
+var RequestFormDB = firebase.database().ref("RequestForm");
 
-document.getElementById("contactForm").addEventListener("submit", submitForm);
+document.getElementById("RequestForm").addEventListener("submit", submitForm);
 
 function submitForm(e) {
   e.preventDefault();
 
   var name = getElementVal("name");
   var email = getElementVal("email");
-  var password = getElementVal("password");
+  var msgContent = getElementVal("msgContent");
+  var telephone = getElementVal("telephone");
 
-  saveMessages(name, email, password);
+  saveMessages(name, email, msgContent, telephone);
 
   //   enable alert
   document.querySelector(".alert").style.display = "block";
@@ -35,16 +36,17 @@ function submitForm(e) {
   }, 3000);
 
   //   reset the form
-  document.getElementById("contactForm").reset();
+  document.getElementById("RequestForm").reset();
 }
 
-const saveMessages = (name, email, password) => {
-  var newContactForm = contactFormDB.push();
+const saveMessages = (name, email, msgContent, telephone) => {
+  var newrequestForm = RequestFormDB.push();
 
-  newContactForm.set({
+  newrequestForm.set({
     name: name,
     emailid: email,
-    password: password,
+    password: msgContent,
+    telephone: telephone,
   });
 };
 
