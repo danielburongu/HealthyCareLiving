@@ -73,9 +73,9 @@ body {
 .visual-section img {
   max-width: 100%;
   max-height: 100%;
-  border-radius: 10px; /* Adjust the border radius as per your preference */
+  border-radius: 10px;
   box-shadow: 0 4px 8px rgb(50, 50, 93, 0.25) 0px 6px 12px -2px,
-  rgb(0, 0, 0, 0.3) 0px 3px 7px -3px;/* Adjust the box shadow as per your preference */
+  rgb(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
   

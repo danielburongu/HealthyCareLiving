@@ -5,12 +5,6 @@ body {
     padding: 0;
 }
 
-/* header {
-    background-color: #192e3a;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-} */
 
 h1 {
     font-size: 36px;
@@ -95,8 +89,8 @@ footer {
     color: #fff;
     padding: 10px;
     font-size: 14px;
-    margin-top: 0; /* Add this line to remove top margin */
-    margin-bottom: 0; /* Add this line to remove bottom margin */
+    margin-top: 0; 
+    margin-bottom: 0;
 }
 
 /* Hide the card below the footer */
@@ -135,5 +129,3 @@ html {
     font-size: 16px;
     margin: 0;
 }
-
-/* Existing CSS Code */

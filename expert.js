@@ -9,7 +9,7 @@ function submitForm() {
     .then(data => {
         if (data.success) {
             alert('Request sent successfully!');
-            // You can also reset the form or redirect the user to a thank-you page
+            // reset the form or redirect the user to a thank-you page
         } else {
             alert('Failed to send request. Please try again.');
         }

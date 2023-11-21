@@ -1,4 +1,4 @@
-// Your web app's Firebase configuration
+// web app's Firebase configuration
 const firebaseConfig = {
     apiKey: "AIzaSyBBH1Kpsl8Sk_C0lKRXEJdGMWhz7Yvamug",
     authDomain: "health-care-living.firebaseapp.com",
@@ -12,7 +12,7 @@ const firebaseConfig = {
 // initialize firebase
 firebase.initializeApp(firebaseConfig);
 
-// reference your database
+// reference database
 var contactFormDB = firebase.database().ref("contactForm");
 
 document.getElementById("contactForm").addEventListener("submit", submitForm);

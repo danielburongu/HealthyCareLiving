@@ -1,4 +1,4 @@
-// Your web app's Firebase configuration
+//  web app's Firebase configuration
 const firebaseConfig = {
     apiKey: "AIzaSyBBH1Kpsl8Sk_C0lKRXEJdGMWhz7Yvamug",
     authDomain: "health-care-living.firebaseapp.com",
