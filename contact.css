@@ -125,7 +125,7 @@ html {
     width: 100px;
     height: 100px;
     border-radius: 80%;
-    object-fit: cover;
+    object-fit: co;
 }
 
 
@@ -141,3 +141,16 @@ html {
     font-size: 16px;
     margin: 0;
 }
+
+
+/* new */
+.reveal-text {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s, transform 0.8s;
+  }
+  
+  .reveal-text.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
