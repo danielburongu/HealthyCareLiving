@@ -117,8 +117,20 @@ html {
 .testimonial-card {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 10px;
+    gap: 20px;
+
 }
+
+.testimonial-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    object-fit: cover;
+}
+
+
+
+
 
 .testimonial-card h3 {
     font-size: 18px;
