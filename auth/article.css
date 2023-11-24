@@ -1,0 +1,188 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+    
+    /* Header and Navigation Styles */
+  .header {
+    background-color: #bbb; 
+    padding: 20px;
+    text-align: center;
+      
+  }
+    
+  .logo {
+    color: "";
+    font-size: 24px;
+    margin: 0;
+  }
+    
+  .navbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+    
+  .navbar a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+  }
+    
+  .navbar a:hover {
+    color: #F57500;
+  }
+  
+  
+  
+    /* Hero Section Styles */
+  .hero-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px;
+  }
+    
+  .text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+    
+  .text-section h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+    
+  .text-section p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+    
+  
+    /* Add styling for visuals here */
+  .visual-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+      
+  .visual-section img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgb(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  
+    
+  /* Blog Section Styles */
+  .blog-section {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+    
+  .blog-post {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+    
+  .blog-post h2 {
+    font-size: 22px;
+    color: #F57500;
+    margin-bottom: 10px;
+  }
+    
+  .blog-post p {
+    color: #333;
+    margin-bottom: 15px;
+  }
+    
+  .read-more-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #F57500;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+    
+  .read-more-button:hover {
+    background-color: #ff3c78;
+  }
+    
+  /* Footer Section Styles */
+  .footer-section {
+    background-color: #bbb;
+    padding: 20px;
+    text-align: center;
+    color: black;
+  }
+  .home{
+    background-color: #192e3a;
+  }
+  /* smooth scroll */
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  
+  /* lower section */
+  
+  .featured-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .card a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    background-color: #F57500;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .card a:hover {
+    background-color: #222425;
+  }
+  .card a::after{
+    content: "👉";
+    padding-left: 10px;
+  }

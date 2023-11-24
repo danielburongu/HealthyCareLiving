@@ -37,13 +37,15 @@ body {
   overflow: hidden;
 }
 
-img {
+ img {
   width: 100%;
-}
+} 
 
 a {
   text-decoration: none;
 }
+
+
 
 .big-wrapper {
   position: relative;
