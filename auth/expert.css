@@ -5,7 +5,12 @@ body {
     padding: 0;
     overflow-x: hidden; /* This prevents horizontal scrollbar and hides content overflow */
 }
-
+.alert {
+    padding: 20px;
+    background-color: #F57500;
+    color: white;
+    margin-bottom: 10px;
+}
 .container {
     max-width: 1200px;
     margin: 0 auto;

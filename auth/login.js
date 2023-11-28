@@ -35,7 +35,7 @@ window.login= function(e) {
 
   signInWithEmailAndPassword(auth, obj.email, obj.password)
     .then(function (success) {
-      alert("logined Successfully")
+      alert("login Successfully")
       var aaaa =  (success.user.uid);
       localStorage.setItem("uid",aaaa)
       console.log(aaaa)
