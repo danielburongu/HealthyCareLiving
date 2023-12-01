@@ -12,7 +12,7 @@ Welcome to the Healthcare Living website! This project aims to serves as a valua
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
+- [deployment](#deployment)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -55,3 +55,6 @@ Follow these instructions to get a copy of the project up and running on your lo
 1. Clone the repository:
    ```bash
    git clone https://github.com/danielburongu/HealthyCareLiving.git
+
+### deployment
+- NOTE: Please  Sign up and log in to access all the features on the deployed web app on vercel.
